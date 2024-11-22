@@ -133,7 +133,7 @@
           echo '<p>' . htmlspecialchars($row['description']) . '</p>';
           echo '<p><strong>Due Date:</strong> ' . htmlspecialchars($row['due_date']) . '</p>';
           
-          $basePath = 'http://localhost/new/web page/';
+          $basePath = 'https://assignment.smartlms.tech/';
           $filePath = htmlspecialchars($row['file_path']);
           $fullPath = $basePath . $filePath;
           
